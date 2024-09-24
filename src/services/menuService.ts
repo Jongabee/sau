@@ -1,4 +1,4 @@
-import MenuItem from "../models/MenuItem";
+import MenuItem from "../models/menuItem";
 
 export const createMenuItem = async (data: any) => {
   const { tipo_comida, nne, nombre, gramaje, unidad_medida } = data;

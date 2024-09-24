@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import * as menuService from "../services/menuService";
-import MenuItem from "../models/MenuItem";
+import MenuItem from "../models/menuItem";
 
 export const addMenuItem = async (req: Request, res: Response) => {
   try {
